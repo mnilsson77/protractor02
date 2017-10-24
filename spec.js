@@ -10,6 +10,6 @@ describe('Protractor Demo App', function() {
     browser.sleep(2000);
     expect(element(by.binding('latest')).getText()).
         toEqual('5'); // This is wrong!
-        browser.sleep(2000);
+        browser.sleep(3000);
   });
 });
